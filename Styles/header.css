@@ -1,0 +1,44 @@
+@import "colors.css";
+@import "fonts.css";
+
+@font-face {
+    font-family: "ThunderFont";
+    src: url(fonts/ThunderFonte-Regular.ttf) format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: var(--Amarelo_thunder);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.PS_button{
+    border-radius: 12px;
+    background-color: var(--Amarelo_thunder);
+    color: var(--Azul_thunder);
+    font-weight: 800;
+}
+
+.header-style{
+    background-color: var(--Azul_thunder);
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
